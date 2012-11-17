@@ -1,0 +1,150 @@
+/** Structure **/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0 auto;
+	margin-top:-20px;
+	color: #1f2021;
+
+}
+
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+section {
+	margin-left:50px;
+	padding-top: 30px;
+	padding-bottom:50px;
+	height: 100%;
+	overflow: hidden;
+	disply: block;
+	clear: both;
+	border-bottom: 1px dotted silver;
+}
+
+article {
+	margin-top: 19px;
+}
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.right {
+	float: right;
+	text-align: right;
+}
+
+/** Text **/
+
+p {
+	display: block;
+}
+
+#posts a{
+	text-decoration: none;
+}
+
+a {
+	color: #353535;
+}
+
+i {
+	color: #d4dbe4;
+}
+
+/** Header **/
+header {
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-left: 20px;
+	height: 190px;
+	background-color: #353535;
+	color: white;
+	height:100%;
+	box-shadow: 1px 1px 1px #000;
+	overflow: hidden;
+}
+
+header ul {
+	margin-top: -10px;
+}
+
+header ul li {
+	list-style: none;
+	font-size: 18px;
+}
+
+header a {
+	color: #f1f1f1;
+	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+	transition:.2s;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: gold;
+}
+
+/** Shots **/
+
+/**This Duplicates .shot, Refactor later**/
+.list-shot {
+	margin-top: 30px;
+	height: 150px;
+	overflow: hidden;
+}
+
+/**This Duplicates .shot, Refactor later**/
+.post-shot {
+	height: 150px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.post-shot img {
+	top: -150px;
+	position: relative;
+}
+
+.shot {
+	height: 150px;
+	margin-top: 30px;
+    overflow: hidden;
+}
+
+.shot img {
+	position: relative;
+}
+
+section:hover .shot img{
+	top: -150px;
+	-o-transition: top .5s ease-in-out;
+	-ms-transition: top .5s ease-in-out;
+	-moz-transition: top .5s ease-in-out;
+	-webkit-transition: top .5s ease-in-out;
+}
+
+/** Highlights **/
+
+.highlight {
+	background: #e3efff;
+}
+
+.highlight-green {
+	background: #d1ffe0;
+}
+
+.highlight-none {
+	background: white;
+}
+
+.post:hover .post-description {
+	background: #e3efff;
+}

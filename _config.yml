@@ -1,0 +1,8 @@
+permalink: /:categories/:title/
+
+#Navigation can be iterated over in the tempaltes: 
+navigation:
+#  - text: home
+#    url: /
+
+assets: '/assets'

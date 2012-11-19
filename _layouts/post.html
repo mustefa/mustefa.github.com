@@ -1,25 +1,40 @@
 {% extends "_layouts/base.html" %}
 
+{% block Header-Content %}
+
+{% endblock %}
+
 {% block content %}
 
-	<section class="post">
+	<section>
 		<span class="left post-shot">
             <img src="{{ site.assets }}/images/designs.png">
         </span>
-		<span class="right">
-			<h2>re:definition # {{ page.number }}</h2>
-			<h3>{{ page.year }}</h3>
-				{{ page.pubdate }}<br />
-			<b>{{ page.title }}</b><br/><span class="highlight">{{ page.tldr }}"</span>
+		<span class="right post-head article-head">
+			<h2>re:definition {{ page.number }}</h2>
+			{{ page.pubdate }}, {{ page.year }}
+			<br />
+			<b>{{ page.title }}</b>
+			<br />
+			<br />
+				<span class="highlight-green">
+				"{{ page.tldr }}"
+				</span>
 		</span>
-   
+
 	</section>
 
 	<section class="post">
 		<article class="left">
 			{{ page.content }}	
 		</article>
+
+		<h3>
+			<a href="/">more articles</a>
+		</h3>
+
 	</section>
+
 
 {% endblock %}
 

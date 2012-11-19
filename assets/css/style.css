@@ -16,7 +16,7 @@ body {
 section {
 	margin-left:50px;
 	padding-top: 30px;
-	padding-bottom:50px;
+	padding-bottom:40px;
 	height: 100%;
 	overflow: hidden;
 	disply: block;
@@ -26,6 +26,7 @@ section {
 
 article {
 	margin-top: 19px;
+	margin-bottom: 35px;
 }
 
 .left {
@@ -44,6 +45,21 @@ p {
 	display: block;
 }
 
+#posts ul {
+	margin-bottom: 0px;
+}
+
+#posts ul li {
+	list-style: none;
+	border-bottom: 1px dotted silver;
+	margin-bottom: 20px;
+}
+
+#posts ul li:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
 #posts a{
 	text-decoration: none;
 }
@@ -56,11 +72,13 @@ i {
 	color: #d4dbe4;
 }
 
+.post-head {
+	max-width: 350px;	
+}
+
 /** Header **/
 header {
-	padding-top:20px;
-	padding-bottom:10px;
-	padding-left: 20px;
+	padding: 20px;
 	height: 190px;
 	background-color: #353535;
 	color: white;
@@ -75,10 +93,11 @@ header ul {
 
 header ul li {
 	list-style: none;
-	font-size: 18px;
+	font-size: 20px;
+	float: left;
 }
 
-header a {
+header a, i {
 	color: #f1f1f1;
 	-o-transition:.2s;
   	-ms-transition:.2s;
@@ -88,7 +107,7 @@ header a {
 	text-decoration: none;
 }
 
-header a:hover {
+header a:hover, i:hover {
 	color: gold;
 }
 

@@ -21,30 +21,32 @@
                         <a href="/">@mustefaj / re:defining experiences</a>
                     </h1>
                 </div>
-                <ul>
-                    <li>
-                        <a href="https://twitter.com/mustefaj" target="_blank"> 
-                             <i class="icon-twitter"></i> in roughly 140 characters or less
-                         </a>
-                    </li>                
-                    <li>
-                        <a href="http://www.rdio.com/people/mustefa/" target="_blank"> 
-                            <i class="icon-headphones"></i> what I'm listening to
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://ca.linkedin.com/pub/mustefa-jo-shen/48/89a/72" target="_blank"> <i class="icon-linkedin"></i> the official word via LinkedIn
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:mail@mustefa.com" target="_blank"> <i class="icon-envelope"></i> dear mustefa, I <3 U</a>
-                    </li>
-                    <li>
-                        <a href="#about"> <i class="icon-leaf"></i>
-                            About me 
-                        </a>
-                    </li>
-                </ul>
+                   <ul>
+        <li>
+            <a href="https://twitter.com/mustefaj" target="_blank"> 
+                 <i class="icon-twitter"></i> 
+             </a>
+        </li>                
+        <li>
+            <a href="http://www.rdio.com/people/mustefa/" target="_blank"> 
+                <i class="icon-headphones"></i> 
+            </a>
+        </li>
+        <li>
+            <a href="http://ca.linkedin.com/pub/mustefa-jo-shen/48/89a/72" target="_blank"> <i class="icon-linkedin"></i> 
+            </a>
+        </li>
+        <li>
+            <a href="mailto:mail@mustefa.com" target="_blank"> <i class="icon-envelope"></i></a>
+        </li>
+        <li>
+            <a href="#credits"> <i class="icon-leaf"></i>
+                </a>
+        </li>
+    </ul>
+                {% block Header-Content %}
+             
+                {% endblock %}
             </div>                
         </header>
 
@@ -66,51 +68,47 @@
         <!-- This footer will appear in all tempaltes that extend base.html -->
         <footer>
             <div class="container">
-                <section class="left">
-                    <h2>Credits... </h2>
+                <section id="credits" class="left">
+                    <h2>Credits</h2>
                     <p>
                         If you've enjoyed reading re:definitions of my experiences,
                         please share articles using your favorite platform...<br /><br /> I recommend <span class="highlight"> <a href="http://twitter.com" target="_blank">twitter</a></span> or <span class="highlight"> <a href="http://alpha.app.net" target="blank_">app.net</a></span>.
                     </p>
                     <p>
-                        <em>I'd</em> like to follow <em>you</em> on twitter, just send me a tweet <a href="http://twitter.com/mustefaj" target="_blank" class="highlight">@mustefaj</a> -- <span class="highlight"><a href="mailto:mail@mustefa.com" target="_blank">or e-mail me to talk about shared interests</a>.</span>
+                        <em>I'd</em> like to follow <em>you</em> on twitter; just send me a tweet <a href="http://twitter.com/mustefaj" target="_blank" class="highlight">@mustefaJ </a> &nbsp; or <span class="highlight"><a href="mailto:mail@mustefa.com" target="_blank"> &nbsp;e-mail </span></a> &nbsp; me to talk about shared interests.
                     </p>
-                </section>
-                <section>
-                    <div id="about" class="left">
-                        <h2>About the author...</h2>
-                        <p>
-                            <span class="left">
-                                Hi there, my name is 
-                            <span class="highlight">
-                                Mustefa Jo'shen 
-                                <br />
-                            </span>
-                            & I work as a
-                            <span class="highlight"> User Experience Designer in Toronto</span>
-                                <br />
-                                <br />
-                                I'd previously led the design for 
-                                <a href="http://www.sdelements.com" target="_blank" class="highlight-green">
-                                    SD Elements
-                                </a>
-                                , a <br /> security application, and now do the same <br /> for
-                                <a href="http://www.tucows.com" target="_blank" class="highlight-green">Tucows Inc's</a> flagship products and services.
-                            </span>
-                        </p>
-                    </div>
-                    <span class="right shot">
-                        <img src="{{ site.assets }}/images/me3.png">
+   <br />
+                    <p>
+                        <span class="left">
+                            My name is 
+                        
+                            Mustefa Jo'shen 
+                            <br />
+                       
+                        & I work as a
+                            User Experience Designer in Toronto
+                            <br />
+                            <br />
+                            I'd previously led the design for 
+                            <a href="http://www.sdelements.com" target="_blank" class="highlight">
+                                SD Elements
+                            </a>
+                            , a <br /> security application, and now do the same <br /> for
+                            <a href="http://www.tucows.com" target="_blank" class="highlight">Tucows Inc's</a> flagship products and services.
+                        </span>
+                    </p>
+                    <span class="right list-shot">
+                        <img src="{{ site.assets }}/images/me.png">
                     </span>
                 </section>
                 
                 <section class="left">
-                    <h2>Colophon...</h2>
+                    <h2>Colophon</h2>
                     <p>
-                        This site was created on a Macbook Pro using <span class="highlight"><a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a></span>. Most articles are written on an iPad mini <span class="highlight"><a href="http://www.iawriter.com/" target="_blank">using iA writer</a></span>.
+                        This site was designed and coded on a Macbook Pro using <span class="highlight"><a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a></span>. Most articles are written on an iPad mini <span class="highlight"><a href="http://www.iawriter.com/" target="_blank">using iA writer</a></span>.
                     </p>
                     <p>
-                        You can find the source code on <span class="highlight-green"><a href="https://github.com/mustefa/" target="_blank">mustefa.github.com</a>.</span>  It is created using <span class="highlight-green"><a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</span>
+                        You can find the source code on <span class="highlight"><a href="https://github.com/mustefa/mustefa.github.com" target="_blank">GitHub</a>.</span>  It is created using <span class="highlight"><a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</span>
                         <br />
                         <br />
                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">re:defining experiences</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://mustefa.com" property="cc:attributionName" rel="cc:attributionURL">Mustefa Jo'shen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License 2012</a>.

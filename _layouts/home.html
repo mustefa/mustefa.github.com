@@ -6,26 +6,27 @@
        <div class="left list-shot">
             <img src="{{ site.assets }}/images/designs.png">
         </div>
-        <div class="right">
-    	    
-            <h2>Writing</h2>
-            <h3>re:definitions of experience - 2012</h3>
+        <div class="right post-head">
+            <h2>re:definitions</h2>
 
-            {% for post in site.posts %}
-            <div class="post">
+            <h3>2012</h3>
+            <ul>
+                {% for post in site.posts %}
+                <li class="post">
                     <a href="{{ post.url }}">
-                    {{ post.pubdate }}
-                    <br />
-                    <u><b>{{ post.title }}</b></u>
-                    <br />
-                    <span class="post-description">
-                        {{ post.tldr }}
-                    </span>
-                    <br />
-                    <br />
-                </a>
-            </div>
-            {% endfor %}
+                        {{ post.pubdate }}
+                        <br />
+                        <u><b>{{ post.title }}</b></u>
+                        <br />
+                        <span class="post-description">
+                            "{{ post.tldr }}"
+                        </span>
+                        <br />
+                        <br />
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </section>
     

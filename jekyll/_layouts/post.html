@@ -7,12 +7,12 @@
         <img src="{{ site.assets }}/images/designs.png">
     </span>
 	<span class="right post-head article-head">
-		<ul class="no-style">
-			<li>{{ page.pubdate }}, {{ page.year }}</li>
-			<li><b>{{ page.title }}</b></li>
-			<br />
-			<li>"<em>{{ page.tldr }}</em>"</li>
-		</ul>
+		{{ page.pubdate }}, {{ page.year }}
+		<br />
+		<b>{{ page.title }}</b>
+		<br />
+		<br />
+		"<em>{{ page.tldr }}</em>"
 	</span>
 
 </section>
@@ -20,10 +20,10 @@
 <section class="post">
 	<article class="left">
 		{{ page.content }}
-		<br />	
-		<b>
-			<em><a href="/#posts">more articles </a> &nbsp; </em>
-		</b>
+		- mustefa jo'shen
+		<br />
+		<br />
+		<b><a href="/#posts">back to articles</a></b>
 	</article>
 </section>
 

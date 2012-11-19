@@ -11,15 +11,12 @@
             <img src="{{ site.assets }}/images/designs.png">
         </span>
 		<span class="right post-head article-head">
-			<h2>re:definition {{ page.number }}</h2>
-			{{ page.pubdate }}, {{ page.year }}
-			<br />
-			<b>{{ page.title }}</b>
-			<br />
-			<br />
-				<span class="highlight-green">
-				"{{ page.tldr }}"
-				</span>
+			<ul class="no-style">
+				<li>{{ page.pubdate }}, {{ page.year }}</li>
+				<li><b>{{ page.title }}</b></li>
+				<br />
+				<li>"<em>{{ page.tldr }}</em>"</li>
+			</ul>
 		</span>
 
 	</section>
@@ -30,7 +27,7 @@
 		</article>
 
 		<h3>
-			<a href="/">more articles</a>
+			<em><a href="/">more articles </a> &nbsp; </em>
 		</h3>
 
 	</section>

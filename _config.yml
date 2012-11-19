@@ -1,8 +1,19 @@
 permalink: /:categories/:title/
+assets: '/assets'
 
 #Navigation can be iterated over in the tempaltes: 
-navigation:
+#navigation:
 #  - text: home
 #    url: /
 
-assets: '/assets'
+links:
+    - url: 'https://twitter.com/mustefaj" target="_blank'
+      icon: 'icon-twitter'
+    - url: 'http://www.rdio.com/people/mustefa/" target="_blank'
+      icon: 'icon-headphones'
+    - url: 'http://ca.linkedin.com/pub/mustefa-jo-shen/48/89a/72'
+      icon: 'icon-linkedin'
+    - url: 'mailto:mail@mustefa.com" target="_blank'
+      icon: 'icon-envelope'
+    - url: '#credits'
+      icon: 'icon-leaf'

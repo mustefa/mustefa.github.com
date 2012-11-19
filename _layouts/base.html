@@ -12,8 +12,8 @@
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet'type='text/css'>
 
     </head>
+
     <body>
-        <!-- This header will appear in all templates that extend base.html -->
         <header>
             <div class="container">
                 <div id="title">
@@ -21,32 +21,15 @@
                         <a href="/">@mustefaj / re:defining experiences</a>
                     </h1>
                 </div>
-                   <ul>
-        <li>
-            <a href="https://twitter.com/mustefaj" target="_blank"> 
-                 <i class="icon-twitter"></i> 
-             </a>
-        </li>                
-        <li>
-            <a href="http://www.rdio.com/people/mustefa/" target="_blank"> 
-                <i class="icon-headphones"></i> 
-            </a>
-        </li>
-        <li>
-            <a href="http://ca.linkedin.com/pub/mustefa-jo-shen/48/89a/72" target="_blank"> <i class="icon-linkedin"></i> 
-            </a>
-        </li>
-        <li>
-            <a href="mailto:mail@mustefa.com" target="_blank"> <i class="icon-envelope"></i></a>
-        </li>
-        <li>
-            <a href="#credits"> <i class="icon-leaf"></i>
-                </a>
-        </li>
-    </ul>
-                {% block Header-Content %}
-             
-                {% endblock %}
+                <ul>
+                    {% for link in site.links %}
+                    <li>
+                        <a href="{{ link.url }}"> 
+                             <i class="{{ link.icon }}"></i> 
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>                
         </header>
 
@@ -71,36 +54,16 @@
                 <section id="credits" class="left">
                     <h2>Credits</h2>
                     <p>
-                        If you've enjoyed reading re:definitions of my experiences,
-                        please share articles using your favorite platform...<br /><br /> I recommend <span class="highlight"> <a href="http://twitter.com" target="_blank">twitter</a></span> or <span class="highlight"> <a href="http://alpha.app.net" target="blank_">app.net</a></span>.
+                        If you've enjoyed reading, share articles using your favorite platform:
+                        <br />
+                        <br />
+                        I recommend <span class="highlight"> <a href="http://twitter.com" target="_blank">twitter</a></span> or <span class="highlight"> <a href="http://alpha.app.net" target="blank_">app.net</a></span>
                     </p>
                     <p>
                         <em>I'd</em> like to follow <em>you</em> on twitter; just send me a tweet <a href="http://twitter.com/mustefaj" target="_blank" class="highlight">@mustefaJ </a> &nbsp; or <span class="highlight"><a href="mailto:mail@mustefa.com" target="_blank"> &nbsp;e-mail </span></a> &nbsp; me to talk about shared interests.
                     </p>
-   <br />
-                    <p>
-                        <span class="left">
-                            My name is 
-                        
-                            Mustefa Jo'shen 
-                            <br />
-                       
-                        & I work as a
-                            User Experience Designer in Toronto
-                            <br />
-                            <br />
-                            I'd previously led the design for 
-                            <a href="http://www.sdelements.com" target="_blank" class="highlight">
-                                SD Elements
-                            </a>
-                            , a <br /> security application, and now do the same <br /> for
-                            <a href="http://www.tucows.com" target="_blank" class="highlight">Tucows Inc's</a> flagship products and services.
-                        </span>
-                    </p>
-                    <span class="right list-shot">
-                        <img src="{{ site.assets }}/images/me.png">
-                    </span>
                 </section>
+
                 
                 <section class="left">
                     <h2>Colophon</h2>

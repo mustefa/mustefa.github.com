@@ -2,15 +2,10 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
 	margin: 0 auto;
 	margin-top:-20px;
 	color: #1f2021;
-
-}
-
-.container {
-	margin: 0 auto;
-	width: 600px;
 }
 
 section {
@@ -27,6 +22,16 @@ section {
 article {
 	margin-top: 19px;
 	margin-bottom: 35px;
+	line-height: 28px;
+}
+
+.article-head {
+	padding-top: 40px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 600px;
 }
 
 .left {
@@ -43,6 +48,24 @@ article {
 
 p {
 	display: block;
+}
+
+a {
+	color: #353535;
+}
+
+i {
+	color: #d4dbe4;
+}
+
+.no-style {
+	list-style: none;
+}
+
+/** posts **/ 
+
+.post-head {
+	max-width: 350px;	
 }
 
 #posts ul {
@@ -62,18 +85,6 @@ p {
 
 #posts a{
 	text-decoration: none;
-}
-
-a {
-	color: #353535;
-}
-
-i {
-	color: #d4dbe4;
-}
-
-.post-head {
-	max-width: 350px;	
 }
 
 /** Header **/
@@ -109,6 +120,7 @@ header a, i {
 
 header a:hover, i:hover {
 	color: gold;
+	cursor: pointer;
 }
 
 /** Shots **/

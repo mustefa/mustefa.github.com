@@ -1,0 +1,190 @@
+/** Structure **/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+	margin-top:-20px;
+	color: #1f2021;
+}
+
+section {
+	margin-left:50px;
+	padding-top: 30px;
+	padding-bottom:40px;
+	height: 100%;
+	overflow: hidden;
+	disply: block;
+	clear: both;
+	border-bottom: 1px dotted silver;
+}
+
+article {
+	margin-top: 19px;
+	margin-bottom: 20px;
+	line-height: 28px;
+}
+
+.article-head {
+	padding-top: 40px;
+}
+
+article p+p {
+	text-indent: 25px;
+}
+
+article p:first {
+	text-indent: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 615px;
+	padding-right: 40px;
+}
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.right {
+	float: right;
+	text-align: right;
+}
+
+/** Text **/
+
+p {
+	display: block;
+}
+
+a {
+	color: #353535;
+}
+
+i {
+	color: #d4dbe4;
+}
+
+.no-style {
+	list-style: none;
+}
+
+/** posts **/ 
+
+.post-head {
+	max-width: 350px;	
+}
+
+#posts ul {
+	margin-bottom: 0px;
+}
+
+#posts ul li {
+	list-style: none;
+	border-bottom: 1px dotted silver;
+	margin-bottom: 20px;
+}
+
+#posts ul li:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
+#posts a{
+	text-decoration: none;
+}
+
+/** Header **/
+header {
+	padding: 20px;
+	height: 190px;
+	background-color: #353535;
+	color: white;
+	height:100%;
+	box-shadow: 1px 1px 1px #000;
+	overflow: hidden;
+}
+
+header ul {
+	margin-top: -10px;
+}
+
+header ul li {
+	list-style: none;
+	font-size: 20px;
+	float: left;
+}
+
+header a, i {
+	color: #f1f1f1;
+	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+	transition:.2s;
+	text-decoration: none;
+}
+
+header a:hover, i:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+/** Shots **/
+
+/**This Duplicates .shot, Refactor later**/
+.list-shot {
+	margin-top: 30px;
+	height: 150px;
+	overflow: hidden;
+}
+
+/**This Duplicates .shot, Refactor later**/
+.post-shot {
+	height: 150px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.post-shot img {
+	top: -150px;
+	position: relative;
+}
+
+.shot {
+	height: 150px;
+	margin-top: 30px;
+    overflow: hidden;
+}
+
+.shot img {
+	position: relative;
+}
+
+section:hover .shot img{
+	top: -150px;
+	-o-transition: top .5s ease-in-out;
+	-ms-transition: top .5s ease-in-out;
+	-moz-transition: top .5s ease-in-out;
+	-webkit-transition: top .5s ease-in-out;
+}
+
+/** Highlights **/
+
+.highlight {
+	background: #e3efff;
+}
+
+.highlight-green {
+	background: #d1ffe0;
+}
+
+.highlight-none {
+	background: white;
+}
+
+.post:hover .post-description {
+	background: #e3efff;
+}

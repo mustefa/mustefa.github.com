@@ -5,9 +5,9 @@
     	   @mustefaj
         </title>
 
-        <link rel="stylesheet" href="{{ site.assets }}/css/typeset.css" />
-        <link rel="stylesheet" href="{{ site.assets }}/css/style.css" />
-        <link rel="stylesheet" href="{{ site.assets }}/css/font-awesome.css" />
+        <link rel="stylesheet" href="/assets/css/typeset.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/font-awesome.css" />
         <!-- Including Adobe's Source Sans Pro from Google Web Fonts: -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet'type='text/css'>
 
@@ -22,30 +22,82 @@
                     </h1>
                 </div>
                 <ul>
-                    {% for link in site.links %}
+                    
                     <li>
-                        <a href="{{ link.url }}" target="{{ link.target }}"> 
-                             <i class="{{ link.icon }}"></i> 
+                        <a href="https://twitter.com/mustefaj" target="_blank" target="_blank"> 
+                             <i class="icon-twitter"></i> 
                         </a>
                     </li>
-                    {% endfor %}
+                    
+                    <li>
+                        <a href="http://www.rdio.com/people/mustefa/" target="_blank" target="_blank"> 
+                             <i class="icon-headphones"></i> 
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://ca.linkedin.com/pub/mustefa-jo-shen/48/89a/72" target="_blank"> 
+                             <i class="icon-linkedin"></i> 
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="mailto:mail@mustefa.com" target="_blank" target="_blank"> 
+                             <i class="icon-envelope"></i> 
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#credits" target=""> 
+                             <i class="icon-leaf"></i> 
+                        </a>
+                    </li>
+                    
                 </ul>
             </div>                
         </header>
 
         <!--<nav>
             <ul>
-                {% for link in site.navigation %}
-                <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-                {% endfor %}
+                
             </ul>
         </nav>-->
 
         <!-- Content to be defined in templates that extend base.html -->
         <div class="container">
-            {% block content %}
-                {{ page.content }}
-            {% endblock %}
+            
+
+<section>
+	<span class="left post-shot">
+        <img src="/assets/images/designs.png">
+    </span>
+	<span class="right post-head article-head">
+		<ul class="no-style">
+			<li>November 17, 2012</li>
+			<li><b>Redefining User Experience</b></li>
+			<br />
+			<li>"<em>And you will know my name is the Lord, when I lay my vengeance upon thee..</em>"</li>
+		</ul>
+	</span>
+
+</section>
+
+<section class="post">
+	<article class="left">
+		<p>
+"The path of the righteous man is beset on all sides by the inequities of the selfish, and the tyranny of evil men. Blessed is he who in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper, and the finder of lost children.
+</p>
+<p> And I will strike down upon thee with great vengeance and furious anger, those who attempt to poison and destroy my brothers. And you will know my name is the Lord, when I lay my vengeance upon thee.."
+</p>
+		<br />	
+		<b>
+			<em><a href="/#posts">more articles </a> &nbsp; </em>
+		</b>
+	</article>
+</section>
+
+
+
         </div>
 
         <!-- This footer will appear in all tempaltes that extend base.html -->

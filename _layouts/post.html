@@ -1,36 +1,31 @@
 {% extends "_layouts/base.html" %}
 
-{% block Header-Content %}
-
-{% endblock %}
-
 {% block content %}
 
-	<section>
-		<span class="left post-shot">
-            <img src="{{ site.assets }}/images/designs.png">
-        </span>
-		<span class="right post-head article-head">
-			<ul class="no-style">
-				<li>{{ page.pubdate }}, {{ page.year }}</li>
-				<li><b>{{ page.title }}</b></li>
-				<br />
-				<li>"<em>{{ page.tldr }}</em>"</li>
-			</ul>
-		</span>
+<section>
+	<span class="left post-shot">
+        <img src="{{ site.assets }}/images/designs.png">
+    </span>
+	<span class="right post-head article-head">
+		<ul class="no-style">
+			<li>{{ page.pubdate }}, {{ page.year }}</li>
+			<li><b>{{ page.title }}</b></li>
+			<br />
+			<li>"<em>{{ page.tldr }}</em>"</li>
+		</ul>
+	</span>
 
-	</section>
+</section>
 
-	<section class="post">
-		<article class="left">
-			{{ page.content }}	
-		</article>
-
-		<h3>
+<section class="post">
+	<article class="left">
+		{{ page.content }}
+		<br />	
+		<b>
 			<em><a href="/">more articles </a> &nbsp; </em>
-		</h3>
-
-	</section>
+		</b>
+	</article>
+</section>
 
 
 {% endblock %}

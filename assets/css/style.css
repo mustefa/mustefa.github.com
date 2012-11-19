@@ -21,7 +21,7 @@ section {
 
 article {
 	margin-top: 19px;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	line-height: 28px;
 }
 
@@ -29,9 +29,18 @@ article {
 	padding-top: 40px;
 }
 
+article p+p {
+	text-indent: 25px;
+}
+
+article p:first {
+	text-indent: 0px;
+}
+
 .container {
 	margin: 0 auto;
-	width: 600px;
+	width: 615px;
+	padding-right: 40px;
 }
 
 .left {

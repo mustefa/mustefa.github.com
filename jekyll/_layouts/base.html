@@ -2,8 +2,10 @@
 <html>
     <head>
         <title>
-    	   @mustefaj
+        {% block title %}
+        {% endblock %}
         </title>
+
 
         <link rel="stylesheet" href="{{ site.assets }}/css/typeset.css" />
         <link rel="stylesheet" href="{{ site.assets }}/css/style.css" />
@@ -51,19 +53,6 @@
         <!-- This footer will appear in all tempaltes that extend base.html -->
         <footer>
             <div class="container">
-                <section id="credits" class="left">
-                    <h2>Credits</h2>
-                    <p>
-                        If you've enjoyed reading, share articles using your favorite platform.
-                        <br />
-                        <br />
-                        I recommend <span class="highlight"> <a href="http://twitter.com" target="_blank">twitter</a></span> or <span class="highlight"> <a href="http://alpha.app.net" target="blank_">app.net</a></span>
-                    </p>
-                    <p>
-                        <em>I'd</em> like to follow <em>you</em> on twitter; send me a tweet <a href="http://twitter.com/mustefaj" target="_blank" class="highlight">@mustefaJ </a> &nbsp; or <span class="highlight"><a href="mailto:mail@mustefa.com" target="_blank"> &nbsp;e-mail </span></a> &nbsp; me to talk about shared interests.
-                    </p>
-                </section>
-
                 <section class="left">
                     <h2>Colophon</h2>
                     <p>
@@ -74,6 +63,30 @@
                     </p>
                     <p>
                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">re:defining experiences</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://mustefa.com" property="cc:attributionName" rel="cc:attributionURL">Mustefa Jo'shen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License 2012</a>.
+                    </p>
+                </section>
+                <section id="credits" class="left">
+                    <h2>Credits</h2>
+                    <p>
+                        If you've enjoyed reading, share articles using your favorite platform.
+                        <br />
+                        <br />
+                        I recommend
+                        <span class="highlight"> 
+                        {% block credits %}
+                            <a href="https://alpha.app.net/intent/post?text=Check+out+@mustefaJ 's+site:+http://mustefa.com" target="blank_">app.net</a></span>
+                        {% endblock %}
+                    </p>
+                    <p>
+                        <em>I'd</em> like to follow <em>you</em> on twitter; send me a tweet 
+
+                        <a href="https://twitter.com/intent/tweet?text=@mustefaj I <3 U, follow me on Twitter" class="highlight">
+                            @mustefaJ
+                        </a>
+            
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                        &nbsp; or <span class="highlight"><a href="mailto:mail@mustefa.com" target="_blank"> &nbsp;e-mail </span></a> &nbsp; me to talk about shared interests.
                     </p>
                 </section>
             </div>

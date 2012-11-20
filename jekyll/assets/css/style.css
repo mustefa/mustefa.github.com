@@ -20,7 +20,6 @@ section {
 }
 
 article {
-	margin-top: 19px;
 	margin-bottom: 20px;
 	line-height: 28px;
 }
@@ -71,8 +70,11 @@ i {
 	list-style: none;
 }
 
-/** posts **/ 
+.date {
+	color: #5d5d5d;
+}
 
+/** posts **/ 
 .post-head {
 	max-width: 350px;	
 }
@@ -135,22 +137,10 @@ header a:hover, i:hover {
 /** Shots **/
 
 /**This Duplicates .shot, Refactor later**/
-.list-shot {
+.static-shot {
 	margin-top: 30px;
 	height: 150px;
 	overflow: hidden;
-}
-
-/**This Duplicates .shot, Refactor later**/
-.post-shot {
-	height: 150px;
-	margin-top: 30px;
-	overflow: hidden;
-}
-
-.post-shot img {
-	top: -150px;
-	position: relative;
 }
 
 .shot {

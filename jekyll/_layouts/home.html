@@ -1,4 +1,9 @@
 {% extends "_layouts/base.html" %}
+
+{% block title %}
+    Re:defining Experiences
+{% endblock %}
+
 {% block content %}
 	<section>
     <span class="left post-head">
@@ -15,23 +20,23 @@
         <a href="http://www.tucows.com" target="_blank" class="highlight">Tucows Inc's</a> flagship products and services.
         </p>
     </span>
-    <span class="right list-shot">
-        <img src="{{ site.assets }}/images/me.png">
+    <span class="right static-shot">
+        <img src="{{ site.assets }}/images/me3.png">
     </span>
 </section>
 
 <section id="posts">
-   <div class="left list-shot">
-        <img src="{{ site.assets }}/images/designs.png">
+   <div class="left static-shot">
+        <img src="{{ site.assets }}/images/list.png">
     </div>
     <div class="right post-head">
-        <h2>re:definitions</h2>
+        <h2>Writing</h2>
 
         <ul>
             {% for post in site.posts %}
             <li class="post">
                 <a href="{{ post.url }}">
-                    {{ post.pubdate }}, {{ post.year }}
+                    <span class="date">{{ post.pubdate }}, {{ post.year }}</span>
                     <br />
                     <u><b>{{ post.title }}</b></u>
                 </a>

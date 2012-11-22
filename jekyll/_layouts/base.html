@@ -18,11 +18,9 @@
     <body>
         <header>
             <div class="container">
-                <div id="title">
-                    <h1>
-                        <a href="/">@mustefaj / re:defining experiences</a>
-                    </h1>
-                </div>
+                <h1>
+                    <a href="/">@mustefaj / re:defining experiences</a>
+                </h1>
                 <ul>
                     {% for link in site.links %}
                     <li>
@@ -53,19 +51,8 @@
         <!-- This footer will appear in all tempaltes that extend base.html -->
         <footer>
             <div class="container">
-                <section class="left">
-                    <h2>Colophon</h2>
-                    <p>
-                        This site was designed & coded on a Macbook Pro using <span class="highlight"><a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a></span>. Most articles are written on an iPad mini <span class="highlight"><a href="http://www.iawriter.com/" target="_blank">using iA writer</a></span>.
-                    </p>
-                    <p>
-                        You can find the source code on <span class="highlight"><a href="https://github.com/mustefa/mustefa.github.com" target="_blank">GitHub</a>.</span>  It is created using <span class="highlight"><a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</span>
-                    </p>
-                    <p>
-                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">re:defining experiences</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://mustefa.com" property="cc:attributionName" rel="cc:attributionURL">Mustefa Jo'shen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License 2012</a>.
-                    </p>
-                </section>
-                <section id="credits" class="left">
+                <section>
+                    <span id="credits"></span>
                     <h2>Credits</h2>
                     <p>
                         If you've enjoyed reading, share articles using your favorite platform.
@@ -74,7 +61,7 @@
                         I recommend
                         <span class="highlight"> 
                         {% block credits %}
-                            <a href="https://alpha.app.net/intent/post?text=Check+out+@mustefaJ 's+site:+http://mustefa.com" target="blank_">app.net</a></span>
+                            <a href="https://alpha.app.net/intent/post?text=Check+out+@mustefaJ's+site on+UX+Design:+http://mustefa.com" target="blank_">app.net</a></span>
                         {% endblock %}
                     </p>
                     <p>
@@ -87,6 +74,26 @@
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
                         &nbsp; or <span class="highlight"><a href="mailto:mail@mustefa.com" target="_blank"> &nbsp;e-mail </span></a> &nbsp; me to talk about shared interests.
+                    </p>
+                </section>
+                <section>
+                    <h2>Colophon</h2>
+                    <p>
+                        This site was designed & coded on a Macbook Pro using <span class="highlight"><a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a></span>. Most articles are written on an iPad mini <span class="highlight"><a href="http://www.iawriter.com/" target="_blank">using iA writer</a></span>.
+                    </p>
+                    <p>
+                        You can find the source code on <span class="highlight"><a href="https://github.com/mustefa/mustefa.github.com" target="_blank">GitHub</a>.</span>  It is created using <span class="highlight"><a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</span>
+                    </p>
+                    <span class="colophon">
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">
+                            <img alt="Creative Commons License" src="{{ site.assets }}/images/cc.png"/>
+                            <img alt="Creative Commons License" src="{{ site.assets }}/images/by.png"/>
+                            <img alt="Creative Commons License" src="{{ site.assets }}/images/nc.png"/>
+                            <img alt="Creative Commons License" src="{{ site.assets }}/images/sa.png"/>
+                        </a>
+                    </span>
+                    <p>
+                        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">re:defining experiences</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://mustefa.com" property="cc:attributionName" rel="cc:attributionURL">Mustefa Jo'shen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License 2012</a>.
                     </p>
                 </section>
             </div>

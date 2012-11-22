@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-	<section>
+<section>
     <span class="left post-head">
         <h2>Hi there,</h2> 
         My name is Mustefa Jo'shen & 
@@ -25,13 +25,13 @@
     </span>
 </section>
 
+<!--Todo: take the #id out of the section -->
 <section id="posts">
    <div class="left static-shot">
         <img src="{{ site.assets }}/images/list.png">
     </div>
     <div class="right post-head">
         <h2>Writing</h2>
-
         <ul>
             {% for post in site.posts %}
             <li class="post">

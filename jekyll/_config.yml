@@ -1,6 +1,6 @@
 permalink: /:categories/:title/
 assets: '/assets'
-domain: 'http://mustefa.github.com'
+domain: 'http://mustefa.com'
 
 
 #Navigation can be iterated over in the tempaltes: 

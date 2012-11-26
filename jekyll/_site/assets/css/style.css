@@ -10,7 +10,7 @@ body {
 }
 
 section {
-	padding: 25px 30px 40px 30px;
+	padding: 25px 60px 40px 30px;
 	overflow: hidden;
 	disply: block;
 	clear: both;
@@ -19,7 +19,7 @@ section {
 
 .container {
 	margin: 0 auto;
-	width: 620px;
+	width: 670px;
 }
 
 article {
@@ -31,9 +31,9 @@ article {
 	padding-top: 40px;
 }
 
-article p+p {
+/***article p+p {
 	text-indent: 25px;
-}
+}***/
 
 article p:first {
 	text-indent: 0px;
@@ -91,7 +91,6 @@ i {
 
 #posts ul li {
 	list-style: none;
-	border-bottom: 1px dotted silver;
 	margin-bottom: 20px;
 }
 
@@ -109,7 +108,7 @@ header {
 	padding: 20px;
 	height: 190px;
 	background-color: #353535;
-	color: white;
+	color: #f7f7f7;
 	height:100%;
 	box-shadow: 1px 1px 1px #000;
 	overflow: hidden;

@@ -12,18 +12,19 @@
 		<br />
 		<br />
 		<b>{{ page.title }}</b>
-		<br />
-		<br />
-		"<em>{{ page.tldr }}</em>"
+		<p>
+    	{{ page.tldr }}
+		</p>
 	</span>
 	<span class="right static-shot">
         <img src="{{ site.assets }}/images/post.png">
     </span>
+
+
 </section>
 <section class="post">
 	<article class="left">
-		{{ page.content }}
-		<p>- mj</p>
+		{{ content }}
 	</article>
 	Comment on 
 	<a href="https://alpha.app.net/intent/post?text=Hey @mustefaJ+I+just+read+{{ site.domain }}{{ page.url }}+and I think..." target="blank_">App.net
@@ -32,9 +33,7 @@
 	<a href="https://twitter.com/intent/tweet?text=Hey @mustefaj, I+just+read+{{ site.domain }}{{ page.url }}+and I think..." class="">
 		Twitter
 	</a>
-	<!-- 
-	&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp; <a href="/#posts">List of Articles</a>
-	-->
+
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
 

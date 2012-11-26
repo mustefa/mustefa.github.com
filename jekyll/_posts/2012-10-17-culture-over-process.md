@@ -3,7 +3,7 @@ layout: post
 title: Culture Over Process
 author: mustefa
 category: culture
-pubdate: Written June 28th <br /> Revised and published on November 24th
+pubdate: Written June 28th <br /> Revised and published on November 25th
 year: 2012
 tldr: What's Culture?<br /> & Why we need to redefine frameworks for growth
 number: 1

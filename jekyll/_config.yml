@@ -1,7 +1,7 @@
 permalink: /:categories/:title/
 assets: '/assets'
 domain: 'http://mustefa.com'
-markdown: maruku
+markdown: rdiscount
 
 #Navigation can be iterated over in the tempaltes: 
 #navigation:

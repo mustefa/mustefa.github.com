@@ -33,8 +33,28 @@
 	<a href="https://twitter.com/intent/tweet?text=Hey @mustefaj, I+just+read+{{ site.domain }}{{ page.url }}+and I think..." class="">
 		Twitter
 	</a>
-
+	
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+<section>
+	<span class="left static-shot">
+        <img src="{{ site.assets }}/images/designs.png">
+    </span>
+    <div class="right post-head">
+    	<h3>Related Articles</h3>
+		<ul>
+		{% for post in site.related_posts %}
+		    <li class="no-style">
+		        <a href="{{ post.url }}">
+		            <span class="date">{{ post.pubdate }}, {{ post.year }}</span>
+		            <br />
+		            <u><b>{{ post.title }}</b></u>
+		        </a>
+		    </li>
+		{% endfor %}
+		</ul>
+	</div>
 </section>
 
 {% endblock %}

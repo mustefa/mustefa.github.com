@@ -13,7 +13,7 @@ Since the early part of 2011, I spent a lot of time reading about Agile, culture
 
 Aside from the many magical 
 <a class="highlight" href="http://www.allaboutunicorns.com/images/logo.jpg">Agile, UX, or Lean</a>
-lessons, the most valuable take-away was learning how to apply the stuff espoused by Spolsky, Gothelf, Reis, or David -- or Dick, Sam or Harry -- into our organization in a healthy way.
+lessons, the most valuable take-away was learning how to apply the stuff espoused by Spolsky, Gothelf, Ries, or David -- or Dick, Sam or Harry -- into our organization in a healthy way.
 
 <br />
 >**<span class="highlight-green">These guys write and do awesome stuff...</span>**

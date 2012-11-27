@@ -1,0 +1,25 @@
+permalink: /:categories/:title/
+assets: '/assets'
+domain: 'http://mustefa.com'
+markdown: rdiscount
+
+#Navigation can be iterated over in the tempaltes: 
+#navigation:
+#  - text: home
+#    url: /
+
+links:
+    - url: 'https://twitter.com/mustefaj" target="_blank'
+      icon: 'icon-twitter'
+      target: '_blank'
+    - url: 'http://www.rdio.com/people/mustefa/" target="_blank'
+      icon: 'icon-headphones'
+      target: '_blank'
+    - url: 'http://ca.linkedin.com/pub/mustefa-jo-shen/48/89a/72'
+      icon: 'icon-linkedin'
+      target: '_blank'
+    - url: 'mailto:mail@mustefa.com" target="_blank'
+      icon: 'icon-envelope'
+      target: '_blank'
+    - url: '#credits'
+      icon: 'icon-leaf'

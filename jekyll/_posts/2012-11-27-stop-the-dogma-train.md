@@ -24,7 +24,7 @@ lessons, the most valuable take-away was learning how to apply the stuff espouse
 <a href="https://twitter.com/jack" target="_blank"><img src="{{ site.assets }}/images/dorsey.png"></a>
 <a href="https://twitter.com/ericries" target="_blank"><img src="{{ site.assets }}/images/ries.png"></a>
 
->**<span class="highlight-green">...the thing that makes these guys interesting is <u>*why</u>* they hold their views, not what they say. <u>Why</u> are they driven to reach their conclusions.</span>**
+>**<span class="highlight-green">...the thing that makes these guys interesting is <u>*why</u>* they hold their views, not what they say. <u>Why</u> they are driven to reach their conclusions.</span>**
 
 <br />
 They create best practices based on their respective contexts, and they encourage a similar culture of reactionary growth...for the most part. Still, a lot of times you read and hear "this is how you should do it because it's how it worked for me". 

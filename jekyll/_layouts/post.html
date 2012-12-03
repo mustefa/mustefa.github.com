@@ -8,33 +8,25 @@
 
 <section>
 	<span class="left post-head article-head">
-		<span class="date">{{ page.pubdate }}, {{ page.year }}</span>
-		<br />
-		<br />
-		<b>{{ page.title }}</b>
 		<p>
-    	{{ page.tldr }}
+			<span class="date">{{ page.pubdate }}, {{ page.year }}</span>
+		</p>
+		<p>
+			<b>{{ page.title }}</b>
+		</p>
+		<p>
+    	<b>tl;dr:</b> <span class="highlight-green"> "{{ page.tldr }}"</span>
 		</p>
 	</span>
 	<span class="right static-shot">
         <img src="{{ site.assets }}/images/post.png">
     </span>
 
-
 </section>
 <section class="post">
 	<article class="left">
 		{{ content }}
 	</article>
-	Comment on 
-	<a href="https://alpha.app.net/intent/post?text=Hey @mustefaJ+I+just+read+{{ site.domain }}{{ page.url }}+and I think..." target="blank_">App.net
-	</a>
-	&nbsp;or
-	<a href="https://twitter.com/intent/tweet?text=Hey @mustefaj, I+just+read+{{ site.domain }}{{ page.url }}+and I think..." class="">
-		Twitter
-	</a>
-	
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
 
 <section>

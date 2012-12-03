@@ -143,6 +143,10 @@ header a:hover, i:hover {
 
 /** Shots **/
 
+.inline-shot {
+	position: relative;
+}
+
 /**This Duplicates .shot, Refactor later**/
 .static-shot {
 	margin-top: 22px;

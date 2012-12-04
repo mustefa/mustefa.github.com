@@ -1,16 +1,29 @@
+h1, h2, h3, h4 {
+	margin-top: 0px;
+}
+
 /** Structure **/
+
+article ul li {
+	list-style: none;
+}
+
+article ul {
+		padding-left: 0px;
+	margin-left: 0px;
+}
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
 	margin: 0 auto;
 	margin-top:-20px;
-	color: #1f2021;
+	color: #282828;
 	background: #fdfdfd;
 }
 
 section {
-	padding: 25px 60px 40px 30px;
+	padding: 30px;
 	overflow: hidden;
 	disply: block;
 	clear: both;
@@ -19,16 +32,15 @@ section {
 
 .container {
 	margin: 0 auto;
-	width: 670px;
+	width: 610px;
 }
 
 article {
-	margin-bottom: 20px;
 	line-height: 28px;
 }
 
 .article-head {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 /***article p+p {
@@ -82,7 +94,7 @@ i {
 
 /** posts **/ 
 .post-head {
-	max-width: 400px;	
+	max-width: 380px;	
 }
 
 #posts ul {
@@ -112,6 +124,10 @@ header {
 	height:100%;
 	box-shadow: 1px 1px 1px #000;
 	overflow: hidden;
+}
+
+header h2 {
+	margin-top: 20px;
 }
 
 header ul {
@@ -145,19 +161,18 @@ header a:hover, i:hover {
 
 .inline-shot {
 	position: relative;
+		float: left;
+	margin-right: 20px;
 }
 
 /**This Duplicates .shot, Refactor later**/
-.static-shot {
-	margin-top: 22px;
+.shot, .static-shot {
 	height: 150px;
 	overflow: hidden;
 }
 
 .shot {
-	height: 150px;
 	margin-top: 30px;
-    overflow: hidden;
 }
 
 .shot img {

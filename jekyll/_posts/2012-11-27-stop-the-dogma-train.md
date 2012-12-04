@@ -37,9 +37,11 @@ They create best practices based on their respective contexts, and they encourag
 </p>
 <p>
 I try not to impose processes like this, but instead synthesize from others and reflect on my own context, applying best practices as they fit. 
+</p>
+
 <br />
 For example:
-</p>
+
 **Imposing Process (bad):** "I read lots of good stuff about Agile & Lean UX. Let's do it."</s>
 
 >Vs.

@@ -52,7 +52,7 @@ The medium for this discourse is different for everyone: some communicate by e-m
 
 I've found that as long as the conversations happen, everyone can work towards shaping how we do things, or at least feel empowered with the ability to do so.
 
-<span class="highlight-green">Beware Resistance to Change & Naivety:</span>
+<span class="highlight-green">Beware Resistance to Change, & Naivety:</span>
 
 <span class="inline-shot"><img src="{{ site.assets }}/images/rif.png"></span>
 

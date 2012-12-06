@@ -94,7 +94,7 @@ i {
 
 /** posts **/ 
 .post-head {
-	max-width: 380px;	
+	max-width: 380px;
 }
 
 #posts ul {
@@ -161,8 +161,8 @@ header a:hover, i:hover {
 
 .inline-shot {
 	position: relative;
-		float: left;
-	margin-right: 20px;
+	float: right;
+	margin-left: 20px;
 }
 
 /**This Duplicates .shot, Refactor later**/

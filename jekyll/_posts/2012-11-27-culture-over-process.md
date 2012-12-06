@@ -5,68 +5,76 @@ author: mustefa
 category: culture
 pubdate: November 27th
 year: 2012
-tldr: Define a framework for healthy growth in your organization
+tldr: Define a framework for healthy growth in your organization.
 number: 2
 ---
 
 
-<h3><u>What's Culture and how does it shape growth?</u></h3>
+<h3><u>What's Culture</u></h3>
 
-Before we start talkin' jive, let's define culture. Webster's dictionary defines 5 components of culture:
+This entire article is central to the word 'culture', and the need for an 'open culture' for healthy growth in an organization. So before we start talkin' jive, let's define culture. 
+
+I used Webster's dictionary which defines four components of culture: **Attitudes, Values, Goals and Practices**.
+
+For example, the components of an open culture could be as follows:
 
 1. **Attitudes**: be open to ideas, we're more than just our defined roles
 1. **Values**: transparency, honest reflection
 1. **Goals**: outstanding customer experience, great work environment
 1. **Practices**: be agile, challenge ideas, empower others
-1. **Dependency**: culture depends upon the capacity for learning and transmitting knowledge to succeeding generations
+
+Websters dictionary also includes the caveat for **dependency** shaping culture, stating that "culture depends upon the capacity for learning and transmitting knowledge to succeeding generations."
 
 <a href="http://www.merriam-webster.com/dictionary/culture" target="_blank" class="highlight">- Source -</a>
 
-I filled in the first four with what I think makes an <em>open</em> culture. The last one, <b>'dependency'</b>, is left as defined in the dictionary. 
+<img class="inline-shot" src="{{ site.assets }}/images/kotrt.png">
+I want to stress that depedency on knowledge should <em><b>not</b></em> be dogmatic, as shared knowledge comes from non-identical environments. 
 
-<img class="inline-shot" src="{{ site.assets }}/images/kotrt.png">I want to stress that depedency on knowledge should <em><b>not</b></em> be dogmatic -- so as with all things, make sure to synthesize.
+Recognize this by reflecting on the best practices of others from *your* context. 
 
-Shared knowledge always comes from non-identical environments. Recognize this by putting the best practices of others in context. 
-<br />
 For example:
 </p>
-**Process driven (bad):** "I read that sprint meetings give visibility and offer a time for our team to reflect.  Let's have sprint meetings every week".
+Process driven (bad): "I read that sprint meetings give visibility and offer a time for our team to reflect.  Let's have sprint meetings every week".
 
->Vs.
+Culture driven (better): "One of our goals is to have transparency in our workflow. A lot of teams have success with sprint meetings. The advantages & disadvantages are '________'. How would they work in our organization?
 
-**Culture driven (better):** "One of our goals is to have transparency in our workflow. A lot of teams have success with sprint meetings. The advantages & disadvantages are '________'. How would they work in our organization?
 <br />
+
+<h3><u>How Does Culture Shape Growth?</u></h3>
+
 <p>
-Being culture driven means creating continuous open discourse. Open means having conversations with and between everyone: developers, qa, designers, directors, interns, with yourself, and anyone else that's affected by any new process you're introducing.
-</p>
-<p>Looking inward forms a strong culture that results implementing something that works, even if you have to do it incrementaly.
+So being culture driven means creating continuous open discourse. What I mean by open is encouraging active communication with and between everyone: developers, qa, designers, directors, interns, with yourself, and anyone else that's affected by any new process you're introducing.
 </p>
 
-<span class="highlight-green">Beware resistance and naivety:</span>
+As a designer, I want to have conversations with everyone that's impacted by what I work on, so that those conversations can shape what I do and how I do it. That way we can adapt the design workflow into a process that's transparent...always open to discourse. It's important to note I'm writing here about the process around design, as an example, not the decisions on a design.
 
-<img src="{{ site.assets }}/images/rif.png">
+The medium for this discourse is different for everyone: some communicate by e-mails, some in person, some during standups, etc. And some conversations are just suited for certain mediums over others. Though if this is the case, then it's really important to make sure that these individual conversations are someone visisble to others that missed them, so that everyone can be on the same page, or at least the same chapter...more or less. It might be a best effort endeavor.
 
-The examples I gave above tried to convey two things:
+I've found that as long as the conversations happen, everyone can work towards shaping how we do things, or at least feel empowered with the ability to do so.
 
-1. We need to find ways to overcome resistance. We are defined by our own history of attitudes, values, goals and practices that can naturally form outright resistance to foreign ideas. This can cripple healthy growth. We need to find ways to overcome
+<span class="highlight-green">Beware Resistance to Change & Naivety:</span>
 
-1. Letting go of ownership will overcome naivety. We can be naive in easily accepting any process that worked elsewhere without a healthy discussion and buy-in from everyone you're involving. Attempting this can result in simple unneeded change instead of real growth.
+<span class="inline-shot"><img src="{{ site.assets }}/images/rif.png"></span>
+
+We still need to find ways to overcome resistance to the change in processes that allow for everything I've written about so-far to happen. Even from ourselves, as we are defined by our own history of attitudes, values, goals and practices that can naturally form outright resistance to foreign ideas. This can cripple healthy growth -- there's a difference between a critical approach and outright resistance.
+
+There's also the opposite trap of being niavely accepting of changes, as we can be naive in easily accepting any process without a healthy discussion and investment from everyone involved. Attempting this blind integration of a process can result in simple unneeded change instead of real growth.
 
 <span class="highlight-green">The right stuff:</span>
 
-This means that healthy growth necessitates an openness to adopt 'the right drivers' for 'the right change' to be implemented in 'the right way'.
+Healthy growth necessitates an openness to adopt 'the right drivers' for 'the right change' to be implemented in 'the right way'.
 
->**The right drivers:** come from identifying paint points, like team confusion about business requirements: "why are we building a notification system?".
+**The right drivers:** come from identifying paint points, like team confusion about business requirements: "why are we building a notification system?".
 
->**The right change:** is a conversation: User stories can work, or better descriptions of tasks/tickets, early involvement of dev team in design. 
+**The right change:** is a conversation -- user stories might not work, maybe we need better descriptions of tasks/tickets, or earlier involvement of the dev team in design. 
 
->**The right implementation:** is an agreement framed around the adaptable principles, values and goals of your culture that encourage growth.
+**The right implementation:** is an agreed process -- or <span class="highlight-green">practice</span> -- framed around the adaptable <span class="highlight-green">principles, values and goals</span> of your culture that encourage healthy growth.
 
-<span class="highlight-green">This entire shindig has 3 pre-requisites: </span>
+<span class="highlight-green">3 pre-requisites to listening to your organizations culture: </span>
 
 1. Share the reigns
-1. Define your four components (attitudes, values, goals, practices)
-1. Establish discourse & synthesize what you learn from others into your own context
+1. Define a framework around your four components (attitudes, values, goals, practices)
+1. Establish discourse & synthesize what you learn from others around this framework
 
 How do you define your 4 components, and how is the discourse going? I'm curious to know.
 

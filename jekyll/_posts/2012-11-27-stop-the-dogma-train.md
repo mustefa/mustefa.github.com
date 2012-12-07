@@ -9,7 +9,7 @@ tldr: Don't Drink the Kool-Aid
 number: 1
 ---
 
-Since the early part of 2011, I've been applying Agile and Lean methodologies to product development and User Experience Desige; integrating what I learn from from others with varying degrees of success into how I work.
+Since the early part of 2011, I've been applying Agile and Lean methodologies to product development and User Experience Design; integrating what I learn from from others with varying degrees of success into how I work.
 
 Aside from the many magical 
 <a class="highlight" href="http://www.allaboutunicorns.com/images/logo.jpg">Agile, UX, or Lean</a>

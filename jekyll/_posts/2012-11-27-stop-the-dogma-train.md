@@ -9,7 +9,13 @@ tldr: Don't Drink the Kool-Aid
 number: 1
 ---
 
-Since the early part of 2011, I've been applying Agile and Lean methodologies to product development and User Experience Design; integrating what I learn from from others with varying degrees of success into how I work.
+<h2>Lessons from a Startup #1</h2>
+
+Lessons from a startup is a series of articles focussing around what I've learned by succeeding <em>and</em> failing over the past two years at multiple startups, including: SD Elements, The K Network, and Ting. 
+
+This article deals with integrating what we learn from from others with varying degrees of success into how we work.
+
+<h3><u>Magic? What Magic?</u></h3>
 
 Aside from the many magical 
 <a class="highlight" href="http://www.allaboutunicorns.com/images/logo.jpg">Agile, UX, or Lean</a>
@@ -33,17 +39,15 @@ I feel like standing on top of a table and yelling *"synthesize what you learn f
 
 I attended a <a class="highlight" href="http://marscommons.marsdd.com/startupsblog/lean-startup-conference-video-stream/">Lean Startup Conference</a> in Toronto at <a class="highlight" href="http://marscommons.marsdd.com" target="_blank">MaRS commons</a> this week, and took some notes from speakers on the panel that were reverberating the need for synthesis over dogma. Here are a couple key quotes:
 
->'What does success look like at this stage, this iteration? Keep the next stage in perspective and don't lose focus'. 
-
+>'What does success look like at this stage, this iteration? Keep the next stage in perspective and don't lose focus'.<br /> 
 ><a class="highlight" href="http://zakhomuth.com" target="_blank">**Zak Homuth, Upverter**</a>
 
->'Don't look for a silver bullet. All of the recipes are there, but you need to apply the principles you learn about contextually to your environment.'
-
+>'Don't look for a silver bullet. All of the recipes are there, but you need to apply the principles you learn about contextually to your environment.'<br />
 ><a class="highlight" href="http://jetcooper.com" target="_blank">**Satish Kanwar, Jet Cooper**</a>
 
 From many speakers on the panel, this message was the common thread. Watch the video for the conference linked in blue above. <a class="highlight" href="http://sachachua.com/blog/2012/12/sketchnotes-lean-startup-day/" target="_blank"> Also check out Sacha Chua's Sketchnotes from the event.</a>
 
-I've noticed that many of the attendees of these events are individuals taking a leap into their first startup, or people from organizations that haven't been exposed to strong agile or lean methodologies before. And for these individuals, it can be easy to fall into the trap of applying what they hear and read into what they do as dogma. It's important that every message of 'this is how I did it' should be accompanied by 'this is why I did it.'
+Many of the attendees of these events are individuals taking a leap into their first startup, or people from organizations that haven't been exposed to strong agile or lean methodologies before. And for these individuals, it can be easy to fall into the trap of applying what they hear and read into what they do as dogma. <span class="highlight-green">It's important that every message of 'this is how I did it' should be accompanied by 'this is why I did it.'</span>
 
 Anything more I say on this will be repitition, so on a last note I'll liken this entire post to an analogy from product development:
 

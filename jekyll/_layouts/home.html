@@ -34,11 +34,14 @@
     </div>
     <div class="right post-head">
         <h3>My Writing</h3>
+
+        <b>2012</b>
+
         <ul>
             {% for post in site.posts %}
             <li class="post">
                 <a href="{{ post.url }}">
-                    <span class="date">{{ post.pubdate }}, {{ post.year }}</span>
+                    <span class="date">{{ post.pubdate }}</span>
                     <br />
                     <u><b>{{ post.title }}</b></u>
                 </a>
